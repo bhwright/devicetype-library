@@ -1,0 +1,28 @@
+---
+manufacturer: MikroTik
+model: cAP ac
+slug: mikrotik-rbcapgi-5acd2nd
+part_number: RBcAPGi-5acD2nD
+u_height: 0
+weight: 0.35
+weight_unit: kg
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: ether1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    description: POE-IN
+  - name: ether2
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    description: POE-OUT
+  - name: wlan1
+    type: ieee802.11n
+    description: '2.4 GHz 802.11b/g/n'
+  - name: wlan2
+    type: ieee802.11ac
+    description: '5 GHz 802.11a/n/ac'
+comments: Dual-band 2.4 / 5GHz wireless access point for mounting on a ceiling or wall with two Gigabit Ethernet ports (one with PoE output), 802.11ac support and IPsec hardware encryption support. [cAP ac Datasheet](https://mikrotik.com/product/cap_ac)

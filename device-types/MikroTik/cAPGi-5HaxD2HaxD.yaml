@@ -1,0 +1,27 @@
+---
+manufacturer: MikroTik
+model: cAP ax
+slug: mikrotik-capgi-5haxd2haxd
+part_number: cAPGi-5HaxD2HaxD
+u_height: 0
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: ether1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    description: POE-IN
+  - name: ether2
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    description: POE-OUT
+  - name: wlan1
+    type: ieee802.11ax
+    description: '2.4 GHz 802.11b/g/n/ax'
+  - name: wlan2
+    type: ieee802.11ax
+    description: '5 GHz 802.11a/n/ac/ax'
+
+comments: 2x Gigabit Ethernet ports, PoE, Gen 6 802.11ax wireless. [cAP ax Datasheet](https://mikrotik.com/product/cap_ax)

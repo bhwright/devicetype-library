@@ -1,0 +1,47 @@
+---
+manufacturer: MikroTik
+model: hAP ac
+slug: mikrotik-rb962uigs-5hact2hnt
+part_number: RB962UiGS-5HacT2HnT
+u_height: 0
+weight: 0.35
+weight_unit: kg
+is_full_depth: false
+airflow: passive
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 17
+    description: DC 12-30 V
+console-ports:
+  - name: Usb-storage
+    type: usb-a
+interfaces:
+  - name: ether1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    description: POE-IN
+  - name: ether2
+    type: 1000base-t
+  - name: ether3
+    type: 1000base-t
+  - name: ether4
+    type: 1000base-t
+  - name: ether5
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: passive-24v-2pair
+    description: POE-OUT
+  - name: sfp1
+    type: 1000base-x-sfp
+  - name: wlan1
+    type: ieee802.11n
+    description: '2.4 GHz 802.11b/g/n'
+  - name: wlan2
+    type: ieee802.11ac
+    description: '5 GHz 802.11a/n/ac'
+  - name: usb
+    type: lte
+comments: Dual concurrent triple chain 2.4/5GHz AP, 802.11ac/a/n/b/g, Five Gigabit Ethernet ports, PoE-out on port 5, SFP, USB for 3G/4G support or storage. [hAP ac Datasheet](https://mikrotik.com/product/RB962UiGS-5HacT2HnT)
+  
