@@ -1,0 +1,30 @@
+---
+manufacturer: MikroTik
+model: RBGPOE
+slug: mikrotik-rbgpoe
+part_number: RBGPOE
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+front-ports:
+  - name: PoE out
+    type: 8p8c
+    rear_port: PoE in
+    rear_port_position: 1
+rear-ports:
+  - name: PoE in
+    type: 8p8c
+    positions: 1
+    label: PoE IN
+power-ports:
+- name: power
+  type: dc-terminal
+  maximum_draw: null
+  allocated_draw: null
+  label: 'dc-in'
+  description: 18-57V, 2A
+comments: |
+  PoE injector, for Gigabit LAN products.
+  
+  [RBGPOE Datasheet](https://mikrotik.com/product/RBGPOE)
+  

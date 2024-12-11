@@ -1,0 +1,30 @@
+---
+manufacturer: MikroTik
+model: RBPOE
+slug: mikrotik-rbpoe
+part_number: RBPOE
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+front-ports:
+  - name: PoE out
+    type: 8p8c
+    rear_port: PoE in
+    rear_port_position: 1
+rear-ports:
+  - name: PoE in
+    type: 8p8c
+    positions: 1
+    label: PoE IN
+power-ports:
+- name: power
+  type: dc-terminal
+  maximum_draw: null
+  allocated_draw: null
+  label: 'dc-in'
+  description: 10-28V, recommend at least 18V for cable losses    
+comments: |
+  PoE injector, for 10/100Mbps LAN products. 
+  
+  [RBGPOE Datasheet](https://mikrotik.com/product/RBPOE)
+  
